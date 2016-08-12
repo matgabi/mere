@@ -1,0 +1,113 @@
+.teaserContainer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.teaser {
+  margin: 0 auto;
+  max-width: 100%;
+
+  p {
+    max-width: 210.578px;
+    font-size: 15px;
+    background: #1b2727;
+    background-image: none;
+    white-space: nowrap;
+    left: 50%;
+    padding: 5px 25px 5px 15px;
+    position: absolute;
+    top: -3px;
+    border-radius: 25px;
+    @media (max-width: 520px) {
+      padding: 3px;
+      font-size: 12px;
+      width: 72px;
+      top: -10px;
+      white-space: normal;
+    }
+
+    strong {
+      font-size: 17px;
+      @media (max-width: 520px) {
+        font-size: 12px;
+        padding: 9px;
+      }
+    }
+
+    img {
+      position: absolute;
+      top: 40%;
+      right: 5px;
+      opacity: 0.6;
+    }
+  }
+}
+
+.teaser > div {
+  float: left;
+  position: relative;
+  padding: 20px;
+  width: 33%;
+
+}
+
+.teaser div:hover p {
+
+  background-image: url("/images/arrow.png");
+  background-position: 92.5% 50%;
+  background-repeat: no-repeat;
+  @media (max-width: 520px) {
+    background-position: 90% 70%;
+
+  }
+
+}
+
+.teaser div:hover {
+  opacity: 0.7;
+}
+
+#orange {
+  color: orange;
+
+}
+
+#blue {
+
+  color: white;
+
+}
+
+#purple {
+
+  color: rebeccapurple;
+
+}
+
+#turcoise {
+
+  color: turquoise;
+
+}
+
+#fuxia {
+
+  color: deeppink;
+
+}
+
+#yellow {
+
+  color: yellow;
+
+}
+
+.finaldots {
+  height: 15px;
+  width: 84%;
+  margin: 0 auto;
+  padding: 30px;
+  background-image: url("/images/graydot_03.png");
+  background-repeat: repeat-x;
+  background-position: center;
+}

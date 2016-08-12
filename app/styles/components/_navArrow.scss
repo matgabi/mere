@@ -1,0 +1,35 @@
+.jump-up {
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 200px;
+
+  @media (max-width: 520px)
+  {
+    opacity: 0.6;
+    width: 100%;
+    height: auto;
+    right: 0px;
+    bottom: 10px;
+  }
+  :hover {
+    opacity: 0.7;
+  }
+}
+
+
+.navarrow {
+
+  background: black;
+  width: 40px;
+  border-radius: 200px;
+  margin: 6px 0 0 0;
+  @media (max-width: 520px) {
+    width: 25px;
+
+  }
+}
+

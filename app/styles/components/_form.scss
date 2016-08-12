@@ -1,0 +1,141 @@
+
+$form-bck : lightgrey;
+
+.formContainer {
+  width: 100%;
+  background: $form-bck ;
+  color: #2f2f2f;
+}
+
+form {
+
+  padding: 20px 0 40px 0;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.form {
+
+  color: #2e2e2e;
+  height: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: right;
+  @media(max-width: 520px){
+    text-align: center;
+  }
+  p {
+    text-align: left;
+    padding: 40px 0 20px 0;
+    margin-top: 0px;
+
+  }
+}
+
+
+#form1 {
+  width: 100%;
+  max-width: 50%;
+  float: left;
+  text-align: left;
+  @media(max-width: 815px){
+    padding:0 34px 0 0px ;
+  }
+  @media (max-width: 420px){
+    float: none;
+    padding: 0;
+    max-width: 80%;
+  }
+
+}
+
+#form2 {
+  max-width: 50%;
+  padding: 0 0 0 34px;
+  float: right;
+  text-align: left;
+  @media(max-width: 815px){
+    padding:0 34px 0 0px ;
+  }
+  @media (max-width: 420px){
+    padding: 0;
+    float: none;
+    max-width: 80%;
+  }
+
+}
+
+
+
+input[type=text] {
+  width: 100%;
+  max-width: 250px;
+  height: 30px;
+  border: 1px solid #2e2e2e;
+  background: $form-bck;
+  @media (max-width: 420px) {
+    max-width: 80%;
+
+  }
+}
+
+input[type=submit] {
+  width: 80px;
+  padding: 4px;
+  margin: 15px 0 30px 0;
+
+  color: white;
+  background: black;
+  opacity: 0.5;
+  border-style: none;
+  :hover {
+    opacity: 0.3;
+    cursor: pointer;
+  }
+}
+
+textarea {
+  resize: vertical;
+  vertical-align: top;
+  border: 1px solid black;
+  background: $form-bck;
+  display: inline-block;
+  width: 100%;
+  max-width: 250px;
+  height: 30px;
+  max-height: 130px;
+  transition: height .5s ;
+  margin: 15px 0 0px 0;
+  @media (max-width:815px ){
+    margin:0;
+  }
+  @media (max-width: 420px) {
+    max-width: 80%;
+  }
+
+}
+textarea:focus{
+  height: 140px;
+}
+
+label {
+  display: inline-block;
+  padding: 15px 0 15px 0;
+
+  width: 100%;
+  max-width: 110px;
+}
+
+#radiob {
+  width: 100%;
+  max-width: 250px;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  /* align-content: center; */
+  justify-content: space-between;
+  label {
+    width: auto;
+  }
+}

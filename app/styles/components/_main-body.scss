@@ -1,0 +1,63 @@
+
+* {
+  :focus{
+    outline: none;
+  }
+
+  box-sizing: border-box;
+  img {
+    max-width: 100%;
+  }
+}
+
+body {
+  font-family: Oswald;
+  background-image: url("/images/background-dots_01.png");
+  margin: 20px 0 0 0;
+  letter-spacing: 2px;
+  text-align: center;
+
+}
+
+pre{
+  font-size: 32px;
+  margin: 30px;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+h2 {
+
+  display: inline;
+  text-align: center;
+}
+p {
+  color: #8a8a8a;
+}
+.main {
+  padding: 0px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+.logo {
+  text-align: center;
+}
+.action {
+  width: 91%;
+  position: relative;
+  text-align: center;
+  background-image: url("/images/graydot_03.png");
+  background-repeat: repeat-x;
+  background-position: center;
+  margin: 0 auto;
+  padding: 30px 0 30px 0;
+  h2 {
+    padding: 0 27px 0 30px;
+    margin: 0 0 0 3.5px;
+    font-size: 20px;
+    background: white;
+  }
+}
